@@ -1,0 +1,14 @@
+[
+  {
+    "assignment_id": "lab-01",
+    "title": "Сумма и среднее чисел из файла",
+    "min_lines": 8,
+    "template": "def read_numbers(path):\n    with open(path) as f:\n        return [int(x) for x in f.read().split()]\n\n\ndef main():\n    pass\n\n\nif __name__ == \"__main__\":\n    main()\n"
+  },
+  {
+    "assignment_id": "lab-02",
+    "title": "Стек на списке",
+    "min_lines": 10,
+    "template": "class Stack:\n    def __init__(self):\n        self.items = []\n"
+  }
+]
